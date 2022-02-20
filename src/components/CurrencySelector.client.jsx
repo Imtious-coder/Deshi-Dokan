@@ -1,6 +1,6 @@
-import {useCallback} from 'react';
-import {useAvailableCountries, useCountry} from '@shopify/hydrogen/client';
 import {Listbox} from '@headlessui/react';
+import {useAvailableCountries, useCountry} from '@shopify/hydrogen/client';
+import {useCallback} from 'react';
 
 /**
  * A client component that selects the appropriate currency to display for products on a website
